@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Bot.Callbacks.Core", "Telegram.Bot.Callbacks.Core\Telegram.Bot.Callbacks.Core.csproj", "{21D346AD-9ED2-453E-981C-AB3B440980E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Bot.Callbacks.Generatir", "Telegram.Bot.Callbacks.Generatir\Telegram.Bot.Callbacks.Generatir.csproj", "{FF6B9795-F14C-4D42-884C-5E32FE8F0684}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram.Bot.Callbacks.Generator", "Telegram.Bot.Callbacks.Generator\Telegram.Bot.Callbacks.Generator.csproj", "{FF6B9795-F14C-4D42-884C-5E32FE8F0684}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
