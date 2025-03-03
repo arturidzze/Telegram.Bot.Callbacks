@@ -1,8 +1,26 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netstandard2.1</TargetFramework>
-        <Nullable>enable</Nullable>
+        <ResolvePackageFileConflicts>false</ResolvePackageFileConflicts>
+        <IsPackable>true</IsPackable>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <RootNamespace>Telegram.Bot.Callbacks</RootNamespace>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>Telegram.Bot.Callbacks.Core</PackageId>
+        <Version>0.0.15</Version>
+        <Authors>arturidzze</Authors>
+        <Description>Библиотека для работы с CallbackQuery: автоматическая генерация строк (callback) для Inline-кнопок
+            и вызов обработчиков</Description>
     </PropertyGroup>
 
+    <ItemGroup>
+        <PackageReference Include="Telegram.Bot" Version="22.4.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.0"/>
+        <None Include="..\Telegram.Bot.Callbacks.Generator\bin\Release\netstandard2.0\Telegram.Bot.Callbacks.Generator.dll"
+              Pack="true"
+              PackagePath="analyzers/dotnet/cs"
+              Visible="false" />
+    </ItemGroup>
+    
 </Project>
